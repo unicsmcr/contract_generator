@@ -14,9 +14,10 @@ Script can be run with:
 
 ### Creating templates:
 The templates for the script are defined in HTML and CSS
+> **NOTE:** the CSS for the template must be defined within the HTML file
 
 Placeholders can be defined with the following syntax: ```[colx]``` where x is the column number (starting from 0) in the csv data file.
-
+ 
 > **EXAMPLE:**
 > The template:
 >```html
