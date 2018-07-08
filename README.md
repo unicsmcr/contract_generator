@@ -21,17 +21,17 @@ Placeholders can be defined with the following syntax: ```[colx]``` where x is t
 > The template:
 >```html
 ><html>
-	><p>First name: [col0]</p>
-	><p>Last name: [col1]</p>
+><p>First name: [col0]</p>
+><p>Last name: [col1]</p>
 ></html>
 >```
 >and the data file:
->```csv
+>```html
 >Kristijonas,Zalys
 >```
 >would result in a pdf file:
 >**Kristijonas.pdf:**
->```
+>```html
 >First name:  Kristijonas
 >Last name: Zalys
 >```
